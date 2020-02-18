@@ -15,6 +15,9 @@ interface NoteDao {
     @Delete
     fun deleteNote(note: Note)
 
+    @Query("DELETE from note_table")
+    fun deleteAllNotes(notes: List<Note>)
+
     @Query("SELECT * from note_table ORDER BY note_date DESC")
     fun getAllNotes(): List<Note>
 

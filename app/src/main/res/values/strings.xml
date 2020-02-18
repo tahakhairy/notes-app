@@ -1,11 +1,4 @@
 <resources>
     <string name="app_name">Notes App</string>
     <string name="title_activity_notes">NotesActivity</string>
-    <string name="create_a_new_note">Create a New Note</string>
-    <string name="enter_note_name">Enter Note Name</string>
-    <string name="enter_note_date">Enter Note Date</string>
-    <string name="what_s_your_note">What\'s your note...</string>
-    <string name="add_note">ADD NOTE</string>
-    <string name="note_created_successfully">Note Created Successfully</string>
-    <string name="ok">OK</string>
 </resources>
