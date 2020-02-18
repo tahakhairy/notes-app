@@ -3,6 +3,7 @@ package com.tahakhairy.notesapp.database
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import java.util.*
 
 @Entity(tableName = "note_table")
 data class Note(
